@@ -1,5 +1,6 @@
 import sys 
 import logging
+from src.utlis import LOG_FILE_PATH
 
 
 def error_message_detail(error,erroe_detail:sys):

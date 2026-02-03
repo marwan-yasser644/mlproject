@@ -12,9 +12,10 @@ def get_requirements(file_path: str) -> list[str]:
     return requirements
 
 setup(
-    name='mlproject',  # بدون فراغ
+    name='mlproject', 
     version='0.0.1',
-    packages=find_packages(),  # تحطها مرة واحدة بس
-    author_email='marwan.yasser644@gmail.com',  # صحح البريد
-    install_requires=get_requirements('requirements.txt')  # اسم الملف صح
+    packages=find_packages(), 
+    author_email='marwan.yasser644@gmail.com',
+    install_requires=get_requirements('requirement.txt')  
 )
+ 
